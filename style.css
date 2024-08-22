@@ -1,0 +1,133 @@
+#mainpage,#loginpage,#statepage,#depositepage,#widrawpage,#transpage
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    background-image: url(ba.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#maincontainer,#lcontainer,#stcontainer,#dcontainer,#wcontainer,#tcontainer
+{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 60px;
+    backdrop-filter: blur(9px);
+    justify-content: center;
+    align-items: center;
+}
+a
+{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: aqua;
+    text-decoration: none;
+    border: 2px solid cyan;
+    border-radius: 20%;
+    box-shadow: 2px 1px 17px cyan;
+
+}
+a:hover,button:hover,input:hover{
+    background-color: white;
+    color: black;
+}
+#logincontainer,#statecontainer,#depositecontainer,#widrawcontainer,#transcontainer
+{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: rgb(160, 235, 235);
+    font-size: 1rem;
+
+}
+h1{
+    margin-top: -100px;
+    font-size: 3rem;
+}
+label
+{
+    font-size: 2rem;
+}
+input
+{
+ height: 25px;
+ width: 250px;
+ border-radius: 20%;
+ background-color: black;
+ color: cyan;
+}
+#signc
+{
+    border: 3px solid black;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+
+}
+#signuppage
+{
+    height:150vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    background-image: url(ba1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    
+}
+#scontainer
+{
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(9px);
+}
+h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+#isign
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 130px;
+}
+button{
+    height: 30px;
+    width: 200px;
+    font-size: 1.3rem;
+    border-radius: 20%;
+    background-color:black;
+    color:cyan;
+    border: 2px solid cyan;
+    border-radius: 20%;
+    box-shadow: 2px 1px 17px cyan;
+}
+#depositecontainer div,#widrawcontainer div,#transcontainer div
+{
+    font-size: 2rem;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="mainpage">
+        <div id="maincontainer">
+            <a href="#loginpage" id="nlogin">LOGIN</a>
+            <a href="#signuppage" id="nsignup">SIGNUP</a>
+        </div>
+    </section>
+
+    <section id="loginpage">
+        <div id="lcontainer">
+        <div id="logincontainer">
+            <h1>LOGIN</h1>
+           <label for=""> USERNAME :<input type="text" id="usename"></label>
+            <label for="">PASSWORD :<input type="password" id="pwd"></label>
+            <button id="LOGIN">LOGIN</button>
+        </div>    
+        </div>
+    </section>
+    <section id="signuppage">
+        <div id="scontainer">
+            <div id="signc">
+                <h2>SIGNUP</h2>
+                <div id="isign">
+                <div>A/C NO:<input type="text" id="accountnum">  <button id="generate"> GENERATE A/C</button></div>
+                <div>FIRSTNAME:<input type="text" id="firstname"></div>
+                <div>LASTNAME: <input type="text" id="lastname"></div>
+                <div>DOB : <input type="date" id="dob"></div>
+                <div> TYPE: <input type="text" id="actype"></div>
+                <div> GENDER:<input type="text" id="gender"></div>
+                <div> USERNAME: <input type="text" id="username"></div>
+                <div> PASSWORD: <input type="password" id="pass"></div>
+                <div> CONFORM PASS: <input type="password" id="cpass"></div>
+                <div> ADHAR NO: <input type="text" id="adharno"></div>
+                <div> PAN NO: <input type="text" id="panno"></div>
+                <div> ADRESS: <input type="text" id="adress"></div>
+                <div> MOB NO: <input type="text" id="mob"></div>
+                <div> EMAIL : <input type="text" id="email"></div>
+                <div><button id="signup">SIGNUP</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="statepage">
+        <div id="stcontainer">
+            <div id="statecontainer">
+                <a href="#depositepage" id="deposite">DEPOSITE</a>
+                <a href="#widrawpage" id="widraw">WIDRAW</a>
+                <a href="#transpage" id="transfer">TRANSFER</a>
+                <a href="" id="ca">ACCOUNT</a>
+                <a href="" id="statement">STATEMENT</a>
+            </div>
+        </div>
+    </section>
+    <section id="depositepage">
+        <div id="dcontainer">
+            <div id="depositecontainer">
+                <h2>DEPOSITE</h2>
+                <div>ACCOUNT NO: <input type="text" id="acnum1"></div>
+                <div>AMOUNT : <input type="text" id="amount1"></div>
+                <div><button id="dep">DEPOSITE</button> <button id="cancel1">CANCEL</button></div>
+            </div>
+        </div>
+    </section>
+    <section id="widrawpage">
+        <div id="wcontainer">
+            <div id="widrawcontainer">
+                <h2>WIDRAW</h2>
+                <div>ACCOUNT NO: <input type="text" id="acnum2"></div>
+                <div>AMOUNT : <input type="text" id="amount2"></div>
+                <div><button id="wid">WIDRAW</button> <button id="cancel2">CANCEL</button></div>
+            </div>
+        </div>
+    </section>
+    <section id="transpage">
+        <div id="tcontainer">
+            <div id="transcontainer">
+                <h2>TRANSFER</h2>
+                <div>ACCOUNT NO: <input type="text" id="acnum3"></div>
+                <div>RECA/C NO: <input type="text" id="rac"></div>
+                <div>AMOUNT : <input type="text" id="amount3"></div>
+                <div><button id="trans">TRANSFER</button> <button id="cancel3">CANCEL</button></div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
